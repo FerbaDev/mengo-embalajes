@@ -115,6 +115,7 @@ main {
   display: flex;
   flex-direction: column;
   padding-block: 16px;
+  gap: 1.2em;
 }
 
 .card-presentacion h2 {
