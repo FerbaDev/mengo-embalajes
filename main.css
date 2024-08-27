@@ -107,7 +107,7 @@ main {
   max-width: 100%;
   padding: 20px;
   min-height: 80vh;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .card-presentacion {
