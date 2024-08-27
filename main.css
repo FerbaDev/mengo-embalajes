@@ -294,7 +294,7 @@ details {
 }
 details p {
   padding: 10px;
-  color: var(--clr-bg);
+  color: white;
 }
 
 /********************************quienes somos ***************/
