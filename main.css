@@ -515,6 +515,7 @@ footer {
   .hero {
     height: 95vh;
     flex-direction: row;
+    gap: 2em;
   }
   .hero-img {
     height: 500px;
