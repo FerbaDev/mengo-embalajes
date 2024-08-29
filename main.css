@@ -124,7 +124,7 @@ main {
 
 .card-presentacion h1 {
   text-transform: uppercase;
-  font-size: 3em;
+  font-size: 2em;
   text-wrap: balance;
 }
 
@@ -202,6 +202,9 @@ main {
   align-items: center;
   background: transparent;
   padding-block: 20px;
+}
+.hacemos-container img {
+  display: none;
 }
 .info-p {
   font-size: 1.5em;
@@ -519,8 +522,8 @@ footer {
   .card-presentacion {
     padding-left: 50px;
   }
-  .card-presentacion h2 {
-    font-size: 5em;
+  .card-presentacion h1 {
+    font-size: 4em;
   }
   .card-presentacion p {
     font-size: 2em;
@@ -534,12 +537,16 @@ footer {
     padding: 50px;
   }
   .hacemos-container {
-    flex-direction: row;
+    flex-direction: row-reverse;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 2em;
   }
-  .blob-hacemos {
+  .hacemos-container img {
+    display: block;
     width: 30%;
+    height: auto;
+    border-radius: 10px;
   }
   .info-texto {
     padding: 20px;
