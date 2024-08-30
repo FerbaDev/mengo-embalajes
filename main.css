@@ -256,12 +256,15 @@ main {
 }
 .card-socios {
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
   gap: 2em;
 }
 .socios-img {
-  width: 100%;
+  width: 35%;
+  display: grid;
+  align-content: center;
 }
 
 .socios-img img {
