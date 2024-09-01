@@ -68,39 +68,57 @@
       <section class="productos">
         <h2>Nuestros Productos</h2>
         <div class="productos-flex">
-            <div class="producto-card">
+            <div class="producto-card" data-producto="Pallets a medida">
                 <img src="./imagenes/pallets.jpg" alt="Tarima 80x120">
                 <h3>Pallets a medida</h3>
                 <p>Con tacos, para exportación.</p>
             </div>
-            <div class="producto-card">
+            <div class="producto-card" data-producto="Tarimas 1,20m x 1,20m">
                 <img src="./imagenes/tarimas-reforzadas-120x120.jpg" alt="Tarima 1x1.20">
                 <h3>Tarimas 1,20m x 1,20m</h3>
                 <p>Con tirantes, con tacos, para exportación.</p>
             </div>
-            <div class="producto-card">
-              <img src="./imagenes/cajones-de-exportacion.jpg" alt="Tarima 1x1.20">
-              <h3>Cajones de exportación</h3>
-              <p>A medida.</p>
+            <div class="producto-card" data-producto="Cajones de exportación">
+                <img src="./imagenes/cajones-de-exportacion.jpg" alt="Tarima 1x1.20">
+                <h3>Cajones de exportación</h3>
+                <p>A medida.</p>
+            </div>
+            <div class="producto-card" data-producto="Tarimas exportación">
+                <img src="./imagenes/tarimas-exportacion-1x1.jpg" alt="Tarima 1x1.20">
+                <h3>Tarimas exportación</h3>
+                <p>1 x 1 y 1 x 1.20 mt.</p>
+            </div>
+            <div class="producto-card" data-producto="Cajones a medida">
+                <img src="./imagenes/cajones-a-medida.jpg" alt="Tarima 1x1.20">
+                <h3>Cajones a medida</h3>
+                <p>Para exportación.</p>
+            </div>
+            <div class="producto-card" data-producto="Cajones base 75x75x1,20">
+                <img src="./imagenes/cajones-base-75x-75.jpg" alt="Tarima 1x1.20">
+                <h3>Cajones base 75x75x1,20</h3>
+                <p>De pino con placas de fenólico.</p>
+            </div>
+            <div class="producto-card" data-producto="Cajones de jardineria">
+              <img src="./imagenes/cajones-jardineria.jpg" alt="Cajones de jardinería">
+              <h3>Cajones de jardinería</h3>
+              <p>Listos para usar.</p>
           </div>
-          <div class="producto-card">
-            <img src="./imagenes/tarimas-exportacion-1x1.jpg" alt="Tarima 1x1.20">
-            <h3>Tarimas exportación</h3>
-            <p>1 x 1 y 1 x 1.20 mt.</p>
+          <div class="producto-card" data-producto="Cajones tipo mandriles">
+            <img src="./imagenes/cajones-mandriles.jpg" alt="Cajones tipo mandriles">
+            <h3>Embalajes tipo cajones:</h3>
+            <p>Mandriles 3,30x95x30 y 2,50x95x30<br>Barriles 3,30x60x50</p>
         </div>
-        <div class="producto-card">
-          <img src="./imagenes/cajones-a-medida.jpg" alt="Tarima 1x1.20">
-          <h3>Cajones a medida</h3>
-          <p>Para exportación.</p>
-      </div>
-      <div class="producto-card">
-        <img src="./imagenes/cajones-base-75x-75.jpg" alt="Tarima 1x1.20">
-        <h3>Cajones base 75x75x1,20</h3>
-        <p>De pino con placas de fenólico.</p>
-    </div>
-            <!-- Agrega más productos aquí -->
         </div>
     </section>
+    <!-- Pop-up -->
+    <div id="popup-overlay" class="popup-overlay">
+      <div id="popup-content" class="popup-content">
+          <span id="popup-close" class="popup-close" aria-label="cerrar pop up">&times;</span>
+          <p id="popup-text"></p>
+          <!-- Imagen pequeña del producto se añadirá dinámicamente aquí -->
+          <a id="popup-whatsapp-link" class="popup-whatsapp-btn" href="#" target="_blank" aria-label="Enviar WhatsApp">Enviar mensaje por WhatsApp</a>
+      </div>
+  </div>   
       <!-- ************ seccion porque **************-->
       <section class="seccion-porque">
         <h2 class="titulo">¿Por qué elegirnos?</h2>
