@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
 :root {
   --clr-bg: #F5DEB3;
@@ -552,6 +553,24 @@ footer {
 .redes-iconos i {
   background: transparent;
 }
+.firma {
+  text-align: center;
+  font-size: 12px;
+  color: var(--clr-bg); /* Usa tu variable de color de fondo si lo prefieres */
+  background: transparent;
+}
+.firma p {
+  font-family: 'Roboto Mono', monospace;
+}
+.firma a {
+  color: var(--clr-bg); /* Mismo color que el texto, pero puedes cambiarlo */
+  text-decoration: none;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.firma a:hover {
+  text-decoration: underline;
+}
 
 /******************************************************************************************/
 /*****************************************************************************************/
@@ -806,19 +825,19 @@ footer {
   .footer-title {
     font-size: 30px;
   }
+  .footer-sec-1 {
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+  }
   .redes {
     margin-left: 50px;
+    height: 50px;
   }
   .footer-body {
     flex-direction: row;
     justify-content: space-between;
-  }
-  .footer-sec-1 {
-    height: 100%; 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    background: transparent;
   }
 }
 
